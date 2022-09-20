@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+
+/* footer */
+
+footer {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    background-color: rgba(45,45,45,255);
+    height: 150px;
+    padding: 65px 0px;
+}
+
+footer a i {
+    font-size: 1.5em;
+    color: rgba(229,204,206,255);
+    transition: transform 2s;
+}
+
+.spotify {
+    font-size: 1.8em;
+}
+
+footer a i:hover {
+    transform: rotate(360deg);
+}

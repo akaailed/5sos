@@ -72,6 +72,11 @@ h2 {
     border-radius: 5px;
 }
 
+.card a {
+    display: flex;
+    justify-content: center;
+}
+
 .card img {
     width: 70%;
     border-radius: 5px;
