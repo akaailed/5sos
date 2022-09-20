@@ -1,0 +1,27 @@
+/* presentation */
+
+.presentation {
+    padding: 0px 15%;
+    font-size: 1.25em;
+}
+
+p {
+    text-align: center;
+}
+
+/* members */
+
+.card {
+    width: 20%;
+}
+
+.card img {
+    width: 60%;
+}
+
+.members-cards {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 45px;
+    row-gap: 45px;
+}

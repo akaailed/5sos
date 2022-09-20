@@ -1,0 +1,23 @@
+/* presentation */
+
+.presentation {
+    padding: 0px 40px;
+}
+
+/* members */
+
+.card {
+    width: 40%;
+}
+
+.card img {
+    width: 60%;
+}
+
+.members-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 45px;
+    row-gap: 45px;
+}

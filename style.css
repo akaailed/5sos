@@ -37,20 +37,64 @@ h1 {
     padding: 0px 15px;
 }
 
-/* main */
+/* members */
 
-main {
-    height: 1000px;
+.members {
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
 }
 
+.members-cards {
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
 
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.6em;
+}
 
+.card {
+    width: 80%;
+    box-shadow: 0px 0px 15px 5px rgba(45,45,45,255);
+    background-color: rgba(246,246,246,255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 5px rgba(45,45,45,255);
+}
+
+.card img:hover {
+    filter: blur(5px) grayscale(100%);
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 350;
+    margin-bottom: 0;
+}
 
 /* footer */
 
 footer {
+    margin-top: 35px;
     display: flex;
     justify-content: center;
+    align-items: center;
     column-gap: 20px;
     background-color: rgba(45,45,45,255);
     height: 150px;
@@ -61,3 +105,8 @@ footer a i {
     font-size: 1.5em;
     color: rgba(229,204,206,255);
 }
+
+.spotify {
+    font-size: 1.8em;
+}
+
