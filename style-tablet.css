@@ -6,6 +6,10 @@
 
 /* members */
 
+h2 {
+    margin-top: 0;
+}
+
 .card {
     width: 40%;
 }
