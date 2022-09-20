@@ -18,13 +18,3 @@ p {
 .card img {
     width: 60%;
 }
-
-/* footer */
-
-footer a i {
-    transition: transform 2s;
-}
-
-footer a i:hover {
-    transform: rotate(360deg);
-}
