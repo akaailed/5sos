@@ -18,11 +18,17 @@ p {
 /* header */
 
 header {
-    background-image: url(./images/5soos.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 460px;
-    height: 450px;
+    position: relative;
+    height: 550px;
+}
+
+header img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
 
 h1 {
