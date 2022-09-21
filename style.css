@@ -17,7 +17,7 @@ p {
 
 /* header */
 
-header {
+/* header {
     position: relative;
     height: 550px;
 }
@@ -29,6 +29,13 @@ header img {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
+} */
+header {
+    background-image: url(./images/5soos.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 460px;
+    height: 450px;
 }
 
 h1 {
