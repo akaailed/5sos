@@ -5,33 +5,20 @@
 }
 
 body {
-    background-color: rgba(246,246,246,255);
+    background-color: rgba(41,41,41,255);
+    color: rgba(220,220,220,255);
 }
-
 
 p {
     text-align: justify;
     font-weight: 550;
 }
 
-
 /* header */
 
-/* header {
-    position: relative;
-    height: 550px;
-}
-
-header img {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-} */
 header {
     background-image: url(./images/5soos.webp);
+    opacity: 70%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 460px;
@@ -42,6 +29,7 @@ h1 {
     text-align: center;
     padding: 15px 0px;
     font-size: 3em;
+    color: rgba(220,220,220,255);
 }
 
 /* presentation */
@@ -76,8 +64,8 @@ h2 {
 
 .card {
     width: 80%;
-    box-shadow: 0px 0px 15px 5px rgba(45,45,45,255);
-    background-color: rgba(246,246,246,255);
+    box-shadow: 0px 0px 15px 1.5px rgba(153,153,153,255);
+    background-color: rgba(41,41,41,255);
     display: flex;
     flex-direction: column;
     align-items: center;
